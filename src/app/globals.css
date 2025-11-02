@@ -13,16 +13,17 @@ body {
 }
 
 .notion-card {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  position: relative;
+  /* position: relative; */
   top: -100px;
   z-index: 10;
   min-height: 100vh;
-  min-width: 100vw;
+  /* min-width: 100vw; */
   gap: 8px;
   padding-left: 8rem;
   padding-right: 8rem;
@@ -34,18 +35,23 @@ body {
   /* border: 1px solid black; */
   box-shadow: 0 6px 14px rgba(16, 24, 40, 0.08);
   background: #fff;
-  position: relative;
+  /* position: relative; */
 }
 
 .card-title {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 700;
   color: var(--foreground);
+
+  max-width: 100%;
+  width: 100%;
+  white-space: break-spaces;
+  word-break: break-word;
 }
 
 .card-text {
   line-height: 1.6;
-  color: rgba(253, 253, 253, 0.8);
+  /* color: rgba(253, 253, 253, 0.8); */
 }
 
 .card-sections {

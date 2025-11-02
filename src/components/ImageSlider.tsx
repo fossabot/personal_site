@@ -1,0 +1,33 @@
+import "./ImageSlider.module.css";
+import Image from "next/image";
+
+export default function ImageSlider() {
+  return (
+    <div id="track">
+      <img
+        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169"
+        alt="Image 1"
+        width={300}
+        height={200}
+      />
+      <img
+        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169"
+        alt="Image 1"
+        width={300}
+        height={200}
+      />
+      <img
+        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169"
+        alt="Image 1"
+        width={300}
+        height={200}
+      />
+      <img
+        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169"
+        alt="Image 1"
+        width={300}
+        height={200}
+      />
+    </div>
+  );
+}

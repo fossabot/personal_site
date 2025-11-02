@@ -6,7 +6,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="font-sans">
+    <html lang="en" className="flex justify-center items-center">
       <body>{children}</body>
     </html>
   );
