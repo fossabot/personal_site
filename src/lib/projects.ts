@@ -1,13 +1,13 @@
 const projects = [
   {
-    title: "Portfolio Redesign",
-    description: "A modern redesign using Next.js & Tailwind.",
-    image: "/images/project1.jpg",
+    title: "FRC Engineering Lead",
+    description: "One of the best teams in california.",
+    image: "frc.jpg",
   },
   {
-    title: "E-commerce UI",
-    description: "Shadcn + Shopify storefront UI components.",
-    image: "/images/project2.jpg",
+    title: "Robot dog",
+    description: "C++ & Inverse Kinematics based magic",
+    image: "dog.jpg",
   },
   {
     title: "SaaS Dashboard",

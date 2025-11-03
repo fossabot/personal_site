@@ -31,7 +31,7 @@ export default function Carousel({ data }: CarouselProps) {
           <div className="aspect-square">
             <div
               ref={ref}
-              className="relative flex h-96 w-96 items-center justify-center overflow-hidden bg-gray-700"
+              className="relative flex h-96 w-96 items-center justify-center overflow-hidden "
             >
               <AnimatePresence custom={{ direction, width }}>
                 {data.length > 0 &&
@@ -47,7 +47,7 @@ export default function Carousel({ data }: CarouselProps) {
                         custom={{ direction, width }}
                         className="absolute flex  items-center justify-center"
                       >
-                        <div className="flex flex-col w-80 h-80 rounded-xl overflow-hidden bg-gray-800 text-white shadow">
+                        <div className="flex flex-col w-96 h-96 rounded-xl overflow-hidden">
                           <img
                             src={project.image}
                             alt={project.title}
