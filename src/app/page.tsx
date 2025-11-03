@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { calculateTimeUntilGraduation } from "@/lib/date";
-import ProjectsScroller from "@/components/ProjectScroller";
+import ProjectsCarousel from "@/components/ProjectCarousel";
 import { projects } from "@/lib/projects";
+import Carousel from "@/components/Carousel";
 
 export default function Home() {
   const { years, months, days } = calculateTimeUntilGraduation();
@@ -40,7 +41,10 @@ export default function Home() {
             <li>mentoring future Armenian engineers and scientists</li>
           </ul>
           <h2 className="font-semibold">Projects</h2>
-          <ProjectsScroller projects={projects} />
+          <div className="w-full flex justify-center">
+            {/* <ProjectsCarousel projects={projects} /> */}
+            <Carousel />
+          </div>
         </div>
       </div>
     </div>
